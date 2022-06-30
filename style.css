@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+@font-face {
+    font-family: 'RingM';
+    src: url(fonts/RINGM.TTF);
+}
+
+.header-container {
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(img/header-img.jpeg);
+    background-position: center;
+}
+
+.header-title-container {
+    color: #fff;
+    font-family: 'RingM', sans-serif;
+    font-weight: normal;
+}
+
+.nav-container {
+    width: 100%;
+    height: 1.6rem;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-container a {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.nav-container a:hover {
+    color: yellow;
+    transition: all 0.25s ease-in-out;
+}
+
+.main-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+section h1 {
+    margin-top: 3rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+section p {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+    margin-top: 3rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.iframe-container {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+section .img-container {
+    margin-top: 2rem;
+}
+
+.footer-container {
+    width: 100%;
+    height: 30rem;
+    margin-top: 10rem;
+    background-image: linear-gradient(to bottom,#000, #333);
+}
+
+/* ======== Classes utilitárias ======== */
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
